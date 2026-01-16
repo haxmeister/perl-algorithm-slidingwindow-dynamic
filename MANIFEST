@@ -1,0 +1,6 @@
+Makefile.PL
+MANIFEST
+README.md
+lib/Algorithm/SlidingWindow/Dynamic.pm
+t/00-load.t
+t/02-examples-shortest-subarray.t
