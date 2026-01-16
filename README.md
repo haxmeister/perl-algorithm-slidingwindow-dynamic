@@ -50,6 +50,11 @@ Full documentation is in the module POD:
 - `lib/Algorithm/SlidingWindow/Dynamic.pm`
 - MetaCPAN: https://metacpan.org/pod/Algorithm::SlidingWindow::Dynamic
 
+## Source Code
+
+- GitHub: https://github.com/haxmeister/perl-algorithm-slidingwindow-dynamic
+- Issues: https://github.com/haxmeister/perl-algorithm-slidingwindow-dynamic/issues
+
 ## License
 
 Same terms as Perl itself. See `LICENSE`.

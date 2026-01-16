@@ -16,4 +16,17 @@ WriteMakefile(
         'Carp'       => 0,
         'Test::More' => 0,
     },
+
+    META_MERGE => {
+        resources => {
+            repository => {
+                type => 'git',
+                url  => 'https://github.com/haxmeister/perl-algorithm-slidingwindow-dynamic.git',
+                web  => 'https://github.com/haxmeister/perl-algorithm-slidingwindow-dynamic',
+            },
+            bugtracker => {
+                web => 'https://github.com/haxmeister/perl-algorithm-slidingwindow-dynamic/issues',
+            },
+        },
+    },
 );

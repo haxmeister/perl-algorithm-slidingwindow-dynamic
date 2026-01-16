@@ -1,4 +1,4 @@
 Revision history for Algorithm-SlidingWindow-Dynamic
 
-0.003  2026-01-16
-    - Initial CPAN-style release: generic sliding window with push/shift/pop/slide
+0.900  2026-01-16
+    - GitHub-ready packaging (CI, README, metadata); API: push/shift/pop/slide

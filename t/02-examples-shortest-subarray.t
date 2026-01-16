@@ -1,5 +1,6 @@
 use strict;
 use warnings;
+
 use Test::More;
 use Algorithm::SlidingWindow::Dynamic;
 
@@ -28,5 +29,22 @@ sub shortest_subarray_at_least_k {
     return defined($best) ? $best : -1;
 }
 
-is(shortest_subarray_at_least_k([2,3,1,2,4,3],7), 2, 'example from POD');
+is(
+    shortest_subarray_at_least_k([2, 3, 1, 2, 4, 3], 7),
+    2,
+    'shortest subarray example from POD'
+);
+
+is(
+    shortest_subarray_at_least_k([1, 1, 1, 1], 10),
+    -1,
+    'returns -1 when no subarray qualifies'
+);
+
+is(
+    shortest_subarray_at_least_k([5], 5),
+    1,
+    'single element satisfies condition'
+);
+
 done_testing;

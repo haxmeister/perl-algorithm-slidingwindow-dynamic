@@ -1,6 +1,10 @@
 Makefile.PL
 MANIFEST
 README.md
+Changes
+LICENSE
+.gitignore
+.github/workflows/ci.yml
 lib/Algorithm/SlidingWindow/Dynamic.pm
 t/00-load.t
 t/02-examples-shortest-subarray.t
