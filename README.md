@@ -1,6 +1,6 @@
 # Algorithm::SlidingWindow::Dynamic
 
-[![CI](https://github.com/haxmeister/Algorithm-SlidingWindow-Dynamic/actions/workflows/ci.yml/badge.svg)](https://github.com/haxmeister/Algorithm-SlidingWindow-Dynamic/actions/workflows/ci.yml)
+[![CI](https://github.com/haxmeister/perl-algorithm-slidingwindow-dynamic/actions/workflows/ci.yml/badge.svg)](https://github.com/haxmeister/perl-algorithm-slidingwindow-dynamic/actions/workflows/ci.yml)
 [![MetaCPAN](https://badge.fury.io/pl/Algorithm-SlidingWindow-Dynamic.svg)](https://metacpan.org/pod/Algorithm::SlidingWindow::Dynamic)
 
 Generic, dynamically sized sliding window.
